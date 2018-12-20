@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="triviaproject.Questions"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
+    <fullyQualifiedTypeName name="triviaproject.ArtConstants"/>
+    <fullyQualifiedTypeName name="triviaproject.EntertainmentConstants"/>
+    <fullyQualifiedTypeName name="triviaproject.GeographyConstants"/>
+    <fullyQualifiedTypeName name="triviaproject.HistoryConstants"/>
+    <fullyQualifiedTypeName name="triviaproject.MusicConstants"/>
+    <fullyQualifiedTypeName name="triviaproject.ScienceConstants"/>
+    <fullyQualifiedTypeName name="triviaproject.CategoryAnswers"/>
+    <fullyQualifiedTypeName name="triviaproject.GeneralConstants"/>
+    <fullyQualifiedTypeName name="triviaproject.CategoryQuestions"/>
+    <fullyQualifiedTypeName name="jdk.internal.jline.console.completer.ArgumentCompleter.ArgumentDelimiter"/>
+    <fullyQualifiedTypeName name="triviaproject.HistoryDatabase"/>
+    <fullyQualifiedTypeName name="triviaproject.MusicDatabase"/>
+    <fullyQualifiedTypeName name="triviaproject.ScienceDatabase"/>
+    <fullyQualifiedTypeName name="triviaproject.EntertainmentDatabase"/>
+    <fullyQualifiedTypeName name="java.lang.System.LoggerFinder"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger.Level"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="triviaproject.ArtDatabase"/>
+    <fullyQualifiedTypeName name="triviaproject.InputOutput"/>
+    <fullyQualifiedTypeName name="triviaproject.Admin"/>
+    <fullyQualifiedTypeName name="triviaproject.AdminConstants"/>
+    <fullyQualifiedTypeName name="triviaproject.GeographyDatabase"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,120 @@
+//Vanessa L'Esperance
+//Exercises
+
+import java.util.Scanner;
+
+
+public class Exercises 
+{
+	public static void main(String[] args) {
+		
+//---------------------Question 1-------------------------
+		Scanner scan = new Scanner(System.in);
+	     System.out.print("Enter the first number: ");
+	        double x = scan.nextDouble();
+	        System.out.print("Enter the Second number: ");
+	        double y = scan.nextDouble();
+	        System.out.print("Enter the third number: ");
+	        double z = scan.nextDouble();
+	        System.out.print("The smallest value is " + smallest(x, y, z)+"\n" );
+	}
+
+	   public static double smallest(double x, double y, double z)
+	    {
+	        return Math.min(Math.min(x, y), z);
+	    }
+		
+	   
+//---------------------Question 2-------------------------
+	   public Exercises(){
+		Scanner scan = new Scanner(System.in);
+	     System.out.print("Enter the first number: ");
+	        double x = scan.nextDouble();
+	        System.out.print("Enter the Second number: ");
+	        double y = scan.nextDouble();
+	        System.out.print("Enter the third number: ");
+	        double z = scan.nextDouble();
+	        System.out.print("The smallest value is " + smallest(x, y, z)+"\n" );
+	    }
+
+	   public static double average(double x, double y, double z)
+	    {
+	        return (x + y + z) / 3;
+	    }
+	   
+	   
+//---------------------Question 3-------------------------
+	   public void Exercise3() {        
+		   Scanner scan = new Scanner(System.in);
+		   System.out.print("Enter a string: ");
+		   String str = scan.nextLine();
+		   System.out.print("The middle character in the string is: " + middle(str)+"\n");
+	   }
+	   
+	   public static String middle(String str){
+		   int position;
+		   int length;
+		   if (str.length() % 2 == 0)
+		   {
+			   position = str.length() / 2 - 1;
+           		length = 2;
+		   }
+		   else
+		   {
+			   	position = str.length() / 2;
+           		length = 1;
+		   }
+		   return str.substring(position, position + length);
+		   
+	   }
+	   
+	   
+//---------------------Question 4-------------------------   
+	   public void Exercise4() {
+		   String str = "w3resource";
+		   System.out.print("Number of  Vowels in the string: " + countVowels(str)+"\n");
+	   }
+		   public int countVowels(String str1){
+			   
+		        int count = 0;
+		        for (int i = 0; i < str1.length(); i++)
+		        {
+		            if (str1.charAt(i) == 'a' || str1.charAt(i) == 'e' || str1.charAt(i) == 'i'
+		                    || str1.charAt(i) == 'o' || str1.charAt(i) == 'u')
+		            {
+		                count++;
+		            }
+		        }
+		        return count;
+		    }
+
+
+//---------------------Question 5------------------------- 
+		   public void Exercise5() {
+			   Scanner scan = new Scanner(System.in);
+		        System.out.print("Enter a string: ");
+		        String str = scan.nextLine();
+
+		        System.out.print("Number of words in the string: " + countWords(str)+"\n");
+		   }
+		   public static int countWords(String str)
+		    {
+		       int count = 0;
+		        if (!(" ".equals(str.substring(0, 1))) || !(" ".equals(str.substring(str.length() - 1))))
+		        {
+		            for (int i = 0; i < str.length(); i++)
+		            {
+		                if (str.charAt(i) == ' ')
+		                {
+		                    count++;
+		                }
+		            }
+		            count = count + 1; 
+		        }
+		        return count; // returns 0 if string starts or ends with space " ".
+		    }
+		   
+		   
+	   }
+
+
